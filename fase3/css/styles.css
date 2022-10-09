@@ -1,0 +1,59 @@
+.encabezado{
+    background-color: #1F4690;
+    text-align: center;
+    color: white;
+}
+
+.principal{
+    background-color: steelblue;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+    /*grid-column: 2/5;*/
+}
+
+/* Inicio de menu */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    margin: auto;
+    width: 500px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.navegacion li a{
+    background-color: #3A5BA0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    align-items: center;
+
+}
+
+.navegacion li a:hover{
+    background-color: #FFA500;
+}
+
+.navegacion > li{
+    float: left;
+}
+
+.navegacion li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.navegacion li:hover > ul{
+    display: block;
+}
+
+/* Fin Menu*/
+
