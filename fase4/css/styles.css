@@ -1,0 +1,73 @@
+/* Inicio de menu */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    margin: auto;
+    width: 500px;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.navegacion li a{
+    background-color: #3A5BA0;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;   
+}
+
+.navegacion li a:hover{
+    background-color: #FFA500;
+}
+
+.navegacion > li{
+    float: left;
+}
+
+.navegacion li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.navegacion li:hover > ul{
+    display: block;
+}
+
+ /*Fin Menu*/
+
+.encabezado{
+    background-color: #1F4690;
+    text-align: center;
+    color: white;
+}
+
+.contenedor{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.principal{
+    background-color: steelblue;
+    padding: 30px;
+    grid-column: 1/4;
+}
+
+.lateral{
+    padding: 30px;
+    grid-column: 4/5;
+}
+
+.ppagina{
+    background-color: #1F4690;
+    color: white;
+    text-align: inherit;
+    padding: 10px;
+}
